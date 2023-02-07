@@ -33,7 +33,7 @@ const displayScores = `
 </div>`;
 
 const showScoresTable = () => {
-  content.insertAdjacentHTML = ('afterbegin', displayScores);
+  content.innerHTML = displayScores;
 }
 
 export default showScoresTable;

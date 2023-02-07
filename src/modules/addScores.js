@@ -12,3 +12,9 @@ const addScores = `
 </form>
 </div>
 `;
+
+const addScoresForm = () => {
+  content.innerHTML += addScores;
+}
+
+export default addScoresForm;
