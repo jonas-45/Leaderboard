@@ -1,4 +1,3 @@
-
 const content = document.getElementById('content');
 
 const displayScores = `
@@ -34,6 +33,6 @@ const displayScores = `
 
 const showScoresTable = () => {
   content.innerHTML = displayScores;
-}
+};
 
 export default showScoresTable;

@@ -1,5 +1,3 @@
-
-
 const content = document.getElementById('content');
 
 const addScores = `
@@ -15,6 +13,6 @@ const addScores = `
 
 const addScoresForm = () => {
   content.innerHTML += addScores;
-}
+};
 
 export default addScoresForm;
