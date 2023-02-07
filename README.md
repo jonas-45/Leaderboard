@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 This leaderboard website ranks and displays scores submitted by different players.
 
@@ -94,9 +94,6 @@ Feel free to check the [issues page](https://github.com/jonas-45/Leaderboard/iss
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, give it a thumps up and follow me on Github for more exciting projects
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
