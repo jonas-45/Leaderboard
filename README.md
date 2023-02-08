@@ -52,6 +52,9 @@ $ npm start
 - CSS
 - JavaScript
 
+##Deployment
+<a href="https://jonas-45.github.io/Leaderboard/dist/">Live demo </a>
+
 ### Key Features <a name="key-features"></a>
 
 - Displays scores of players in a table
