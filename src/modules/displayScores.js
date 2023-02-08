@@ -11,6 +11,6 @@ const displayScores = (scoresArr) => {
     tr.appendChild(td2);
     table.appendChild(tr);
   });
-}
+};
 
 export default displayScores;

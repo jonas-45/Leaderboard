@@ -1,4 +1,5 @@
-import spinner from './images/spinner.jpg'
+import spinner from './images/spinner.jpg';
+
 const content = document.getElementById('content');
 
 const addScores = `

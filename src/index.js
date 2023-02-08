@@ -4,7 +4,6 @@ import addScoresForm from './addScores';
 import submitScore from './modules/submitScore';
 import getAllScores from './modules/getScores';
 
-
 showScoresTable();
 addScoresForm();
 
@@ -17,21 +16,21 @@ const refreshBtn = document.getElementById('refresh-btn');
 
 getAllScores();
 
-//form.addEventListener('submit',submitScore(userNameInput.value, scoreInput.value));
-form.addEventListener('submit', async event => {
+// form.addEventListener('submit',submitScore(userNameInput.value, scoreInput.value));
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
   spinner.style.display = 'block';
   const score = {
     user: userNameInput.value,
-    score: scoreInput.value
-  }
+    score: scoreInput.value,
+  };
 
   await submitScore(score);
   spinner.style.display = 'none';
   successTxt.style.display = 'block';
   setTimeout(() => {
     successTxt.style.display = 'none';
-  },3000);
+  }, 3000);
 });
 
 refreshBtn.addEventListener('click', () => {
