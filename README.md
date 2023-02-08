@@ -52,7 +52,8 @@ $ npm start
 - CSS
 - JavaScript
 
-##Deployment
+## Deployment 
+
 <a href="https://jonas-45.github.io/Leaderboard/dist/">Live demo </a>
 
 ### Key Features <a name="key-features"></a>
