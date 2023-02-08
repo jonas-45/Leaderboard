@@ -2,6 +2,8 @@ import './styles/styles.css';
 import showScoresTable from './showScores';
 import addScoresForm from './addScores';
 import submitScore from './modules/submitScore';
+import getAllScores from './modules/getScores';
+
 
 showScoresTable();
 addScoresForm();
@@ -11,6 +13,8 @@ const userNameInput = document.getElementById('user-name');
 const scoreInput = document.getElementById('user-score');
 const successTxt = document.querySelector('.success');
 const spinner = document.getElementById('spinner');
+
+getAllScores();
 
 //form.addEventListener('submit',submitScore(userNameInput.value, scoreInput.value));
 form.addEventListener('submit', async event => {

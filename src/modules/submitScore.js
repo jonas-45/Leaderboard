@@ -1,10 +1,9 @@
-import BaseUrl from "./consts";
 import axios from 'axios';
+import GameUrl from "./consts";
 
-const gamesUrlb = 'games/Zl4d7IVkemOTTVg2fUdz/scores/';
 const submitScore = async (score) => {
   try {
-    const response = await axios.post(BaseUrl + gamesUrlb, score);
+    const response = await axios.post(GameUrl, score);
     const feedback = response.data;
     console.log("After adding a score results: ",feedback);
 

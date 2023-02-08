@@ -23,6 +23,15 @@ h1 {
   padding: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 50px;
+  }
+}
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -32,7 +41,7 @@ h2 {
 .scores-heading {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   column-gap: 20px;
 }
 
@@ -44,6 +53,10 @@ h2 {
 
 tr {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 td {
@@ -56,7 +69,8 @@ tr:nth-child(even) {
 }
 
 #refresh-btn {
-  padding: 6px;
+  padding: 3px 10px;
+  cursor: pointer;
 }
 
 #form {
