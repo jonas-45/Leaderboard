@@ -13,6 +13,7 @@ const userNameInput = document.getElementById('user-name');
 const scoreInput = document.getElementById('user-score');
 const successTxt = document.querySelector('.success');
 const spinner = document.getElementById('spinner');
+const refreshBtn = document.getElementById('refresh-btn');
 
 getAllScores();
 
@@ -31,5 +32,8 @@ form.addEventListener('submit', async event => {
   setTimeout(() => {
     successTxt.style.display = 'none';
   },3000);
-  
+});
+
+refreshBtn.addEventListener('click', () => {
+  getAllScores();
 });
