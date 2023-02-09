@@ -7,6 +7,8 @@ const getAllScores = async () => {
     const response = await axios.get(API_SCORES_URL);
     const respObj = response.data;
     if (respObj.result.length > 0) {
+      document.querySelector('.loading').style.display = 'none';
+      document.querySelector('.scores-table').style.display = 'flex';
       displayScores(respObj.result);
     }
     return true;
