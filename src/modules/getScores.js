@@ -9,7 +9,9 @@ const getAllScores = async () => {
     if (respObj.result.length > 0) {
       displayScores(respObj.result);
     }
+    return true;
   } catch (error) {
+    return null;
   }
 };
 
