@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #dddddd;
+  background-color: #ddd;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ body {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 7px;
   margin-top: 10px;
@@ -155,7 +155,7 @@ input[type=text]:focus {
   margin-top: 20px;
 }
 
-.horizontalLine {  
+.horizontalLine {
   width: 100%;
-  border-bottom: 1px solid #999;  
- }
+  border-bottom: 1px solid #999;
+}
