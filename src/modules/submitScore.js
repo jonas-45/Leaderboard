@@ -1,9 +1,9 @@
 import axios from 'axios';
-import GameUrl from './consts';
+import API_SCORES_URL from './consts';
 
 const submitScore = async (score) => {
   try {
-    const response = await axios.post(GameUrl, score);
+    const response = await axios.post(API_SCORES_URL, score);
     const feedback = response.data;
 
     return feedback;

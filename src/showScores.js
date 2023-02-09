@@ -7,7 +7,7 @@ const displayScores = `
   <button type="button" id="refresh-btn">Refresh</button>
 </div>
 <table class="scores-table">
-  
+  <tbody class='table-body'></tbody>
 </table>
 </div>`;
 

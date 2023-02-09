@@ -16,7 +16,6 @@ const refreshBtn = document.getElementById('refresh-btn');
 
 getAllScores();
 
-// form.addEventListener('submit',submitScore(userNameInput.value, scoreInput.value));
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   spinner.style.display = 'block';
