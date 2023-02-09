@@ -30,6 +30,7 @@ form.addEventListener('submit', async (event) => {
   setTimeout(() => {
     successTxt.style.display = 'none';
   }, 3000);
+
 });
 
 refreshBtn.addEventListener('click', () => {
