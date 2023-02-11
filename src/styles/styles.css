@@ -71,6 +71,8 @@ h2 {
   width: 400px;
   margin-top: 20px;
   display: none;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .table-body {

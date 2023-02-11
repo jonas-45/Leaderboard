@@ -29,7 +29,7 @@ form.addEventListener('submit', async (event) => {
   successTxt.style.display = 'block';
   setTimeout(() => {
     successTxt.style.display = 'none';
-  }, 3000);
+  }, 2000);
   form.reset();
 });
 
